@@ -1,0 +1,11 @@
+﻿namespace SistemaVenta.ClientBlazor.Models
+{
+    public class Proveedor
+    {
+        public int Id { get; set; }
+       
+        public string Correo { get; set; }
+        public string Nombre { get; set; }
+        public string Teleforno { get; set; }
+    }
+}
